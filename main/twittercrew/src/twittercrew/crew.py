@@ -23,7 +23,7 @@ load_dotenv()
 class TwittercrewCrew:
 	"""Twittercrew crew"""
 
-	llm= LLM(model="groq/mixtral-8x7b-32768")
+	llm= LLM(model="groq/gemma-7b-it")
 
 
 	@agent
