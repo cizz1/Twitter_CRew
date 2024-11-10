@@ -82,4 +82,7 @@ reply_tool = ReplyTweetTool()
 retweet_tool = RetweetTool()
 # search_tool = SerperDevTool()
 feedscan_tool = FeedScannerTool()
+
+# result = like_tool._run(tweet_id="021", filepath=filepath)
+# print(result)
       
