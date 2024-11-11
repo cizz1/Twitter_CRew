@@ -101,6 +101,6 @@ class TwittercrewCrew:
 			tasks=self.tasks, # Automatically created by the @task decorator
 			process=Process.sequential,
 			verbose=True,
-			# max_rpm=5000
+			max_rpm=5000
 
 		)
