@@ -16,11 +16,11 @@ from tools.custom_tool import like_tool,reply_tool,retweet_tool,feedscan_tool
 
 
 # Your code to use GROQ_API_KEY and ChatGroq here
-# from dotenv import load_dotenv
-# load_dotenv()
-import streamlit as st
-groq_api_key = st.secrets["GROQ_API_KEY"]
-serper_api_key = st.secrets["SERPER_API_KEY"]
+from dotenv import load_dotenv
+load_dotenv()
+# import streamlit as st
+# groq_api_key = st.secrets["GROQ_API_KEY"]
+# serper_api_key = st.secrets["SERPER_API_KEY"]
 
 
 @CrewBase
